@@ -1,0 +1,18 @@
+package scratch;
+
+public class String_TotalNumberOfCharacters {
+
+	public static void main(String[] args) {
+		String str = "The best of both worlds";
+		int count = 0;
+		
+		for(int i=0; i<str.length(); i++) {
+			if(str.charAt(i) != ' ') {
+				count++;
+			}
+		}
+		System.out.println("The total number of characters in the string :" + count);;
+
+	}
+
+}
